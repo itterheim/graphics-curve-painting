@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES5",
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "outDir": "./build",
+        "outFile": "./build/graphics.js",
+        "noImplicitAny": true,
+        "sourceMap": true
+    },
+    "quotemark": [true, "single", "avoid-escape"],
+    "buildOnSave": true,
+    "compileOnSave": true,
+    "include": [
+        "./src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
